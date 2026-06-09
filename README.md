@@ -1,42 +1,10 @@
-# Project
-This project was generated with [Pruvious](https://pruvious.com) CLI version 3.15.6.
-
-Documentation: [https://pruvious.com/docs](https://pruvious.com/docs)
-
-## Setup
-
-Make sure to install the dependencies:
+# Get started
 
 ```bash
-# pnpm
-pnpm install
-
-# npm
 npm install
-```
-
-## Development server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# pnpm
-pnpm dev
-
-# npm
 npm run dev
 ```
 
-## Production
+Then go to http://localhost:3000/dashboard
 
-Build the website for production:
-
-```bash
-# pnpm
-pnpm build
-
-# npm
-npm run build
-```
-
-Check out the [deployment documentation](https://pruvious.com/docs/deployment) for more information.
+You should see a blank page instead of the Pruvious UI. Remove the i18n module and everything works.
